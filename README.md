@@ -28,7 +28,6 @@ Further information about connections and program operation will be displayed th
 
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/905.png)
 
-<BR>
 # Building v2rayN and v2ray core from source
 
 The application is built in two stages. The first stage builds the GUI using NET Framework 4.0  
@@ -58,57 +57,57 @@ bin\Release\zh-Hans\v2rayN.resources.dll
 
 <span style="color:blue">**The first thing you need to do is install trusted root certificates.**</span>.
 
-1. Download the GlobalSign **Root-R1** certificate to an accessible location:
+1. Download the GlobalSign **Root-R1** certificate to an accessible location:  
 [GlobalSign Root Certificates](https://support.globalsign.com/ca-certificates/root-certificates/globalsign-root-certificates)
 
-2. Click **Start > Run**
+2. Click **Start > Run**  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/951.png)
 
-3. Type **MMC** and press **OK**
+3. Type **MMC** and press **OK**  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/952.png)
 
-4. Click on **File  > Add / Remove Snap-In**
+4. Click on **File  > Add / Remove Snap-In**  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/953.png)
 
-5. Click **Add**
+5. Click **Add**  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/954.png)
 
-6. Under **Snap-in**, double click on **Certificates**
+6. Under **Snap-in**, double click on **Certificates**  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/955.png)
 
-7. Click **Computer Account > Next**
+7. Click **Computer Account > Next**  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/956.png)
 
-8. Choose **Local Computer > Finish**
+8. Choose **Local Computer > Finish**  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/957.png)
 
-9. Click **Close.**
+9. Click **Close.**  
 
-10. Click **OK** to exit the snap-in window.
+10. Click **OK** to exit the snap-in window.  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/958.png)
 
-11. Click **[+] next to Certificates > Trusted Root Certification Authorities > Certificates**
+11. Click **[+] next to Certificates > Trusted Root Certification Authorities > Certificates**  
 
-12. Right click on **Certificates** and select **All Tasks > Import**
+12. Right click on **Certificates** and select **All Tasks > Import**  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/959.png)
 
-13. Click **Next**
+13. Click **Next**  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/960.png)
 
-14. Click **Browse**
+14. Click **Browse**  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/961.png)
 
-15. Select **Root-R1.crt** downloaded in step <span style="color:red">**1**.</span>.
-Press **Open** and **Next** to continue.
+15. Select **Root-R1.crt** downloaded in step <span style="color:red">**1**.</span>.  
+Press **Open** and **Next** to continue.  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/962.png)
 
-16. Click **Next**
+16. Click **Next**  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/963.png)
 
-17. Click **Finish**
+17. Click **Finish**  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/964.png)
 
-17. Press **OK**
+17. Press **OK**  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/965.png)
 
 ### NOTE:
@@ -146,14 +145,14 @@ v2rayN\geosite.dat
 v2rayN\zh-Hans\v2rayN.resources.dll
 ```
 You can download the completed archive containing these files in the [Release](https://github.com/tx00100xt/v2rayN-Windows-XP/releases) section.
-You can run executable file v2ray.exe from the command line without using GUI.
+You can run executable file v2ray.exe from the command line without using GUI.  
 ![v2rayN-WinXP](https://raw.githubusercontent.com/tx00100xt/v2rayN-Windows-XP/main/images/970.png)
 
 By default, the listen address **127.0.0.1:10808** is used.
 
 ## Links
 
-https://github.com/2dust/v2rayN
-https://github.com/v2ray/v2ray-core
+https://github.com/2dust/v2rayN  
+https://github.com/v2ray/v2ray-core  
 
 [Visual Studio 2015 Community Edition]: https://go.microsoft.com/fwlink/?LinkId=615448&clcid=0x409 "Visual Studio 2015 Community Edition"
